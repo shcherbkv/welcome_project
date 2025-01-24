@@ -1,0 +1,473 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Стили для header -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+header {
+	padding: 2vw;
+	display: flex;
+	background-color: #ccc;
+}
+
+.logo-div {
+	display: flex;
+	flex-direction: column;
+	width: 30vw;
+	cursor: pointer;
+
+}
+
+.logo-div h1 {
+	align-self: center;
+	font-size: 2vw;
+	font-family: "Great Vibes", serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.logo-div p {
+	align-self: center;
+	font-size: 1vw;
+}
+
+header .history {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+header .history * {
+	font-size: 2vw;
+	cursor: pointer;
+}
+
+header .history .lang {
+	width: 6vw;
+	color: black;
+	text-decoration: none;
+}
+
+header .history .lang:hover {
+	position: relative;
+	text-decoration: underline;
+}
+
+header .history .my_history {
+	cursor: default;
+}
+
+/* Основное содержимое ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+main {
+	background-color: #ccc;
+	width: 100%;
+	height: 110vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.white-board {
+	background-color: white;
+	width: 60vw;
+	height: 100vw;
+}
+
+/* 1 Блок --------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+a {
+	text-decoration: none;
+}
+
+.block {
+	cursor: pointer;
+}
+
+.block1,
+.block2,
+.block3,
+.block4,
+.block5,
+.block6,
+.block7,
+.block8,
+.block9,
+.block10{
+	height: 10%;
+}
+
+.block1:hover,
+.block2:hover,
+.block3:hover,
+.block4:hover,
+.block5:hover,
+.block6:hover,
+.block7:hover,
+.block8:hover,
+.block9:hover,
+.block10:hover {
+	height: 10%;
+	background-color: #ededed;
+}
+
+.block1-round1,
+.block3-round1,
+.block5-round1,
+.block7-round1,
+.block9-round1 {
+	width: 0vw;
+	height: 0vw;
+	border: 6vw solid #862bc2;
+	border-radius: 50%;
+	position: relative;
+	top: -1vw;
+	left: -5.94vw;
+	border-color: transparent transparent #862bc2 #862bc2;
+	rotate: 45deg;
+	z-index: 1;
+}
+
+.block3-round1 {
+	border: 6vw solid #ffc000;
+	border-color: transparent transparent #ffc000 #ffc000;
+}
+
+.block5-round1 {
+	border: 6vw solid #01ffff;
+	border-color: transparent transparent #01ffff #01ffff;
+}
+
+.block7-round1 {
+	border: 6vw solid #ff00fe;
+	border-color: transparent transparent #ff00fe #ff00fe;
+}
+
+.block9-round1 {
+	border: 6vw solid #018f01;
+	border-color: transparent transparent #018f01 #018f01;
+}
+
+.round1-number,
+.round3-number,
+.round5-number,
+.round7-number,
+.round9-number {
+	font-size: 3vw;
+	color: white;
+	position: relative;
+	top: 1.1vw;
+	left: -3vw;
+	rotate: -45deg;
+	font-weight: 900;
+}
+
+.block1-round2,
+.block3-round2,
+.block5-round2,
+.block7-round2,
+.block9-round2 {
+	width: 0vw;
+	height: 0vw;
+	border: 4vw solid #561c9b;
+	border-radius: 50%;
+	position: relative;
+	top: -11vw;
+	left: -4vw;
+	border-color:#561c9b #561c9b transparent transparent;
+	rotate: 45deg;
+	z-index: 2;
+}
+
+.block3-round2 {
+	border: 4vw solid #c90;
+	border-color:#c90 #c90 transparent transparent;
+}
+
+.block5-round2 {
+	border: 4vw solid #04c2c2;
+	border-color:#04c2c2 #04c2c2 transparent transparent;
+}
+
+.block7-round2 {
+	border: 4vw solid #c200c2;
+	border-color:#c200c2 #c200c2 transparent transparent;
+}
+
+.block9-round2 {
+	border: 4vw solid #005900;
+	border-color:#005900 #005900 transparent transparent;
+}
+
+.block1-triangle,
+.block3-triangle,
+.block5-triangle,
+.block7-triangle,
+.block9-triangle {
+	border: 2vw solid transparent; 
+	border-left: 2vw solid #862bc2;
+	z-index: 3;
+	position: relative;
+	top: -17vw;
+	left: -0.1vw;
+}
+
+.block3-triangle {
+	border-left: 2vw solid #ffc000;
+}
+
+.block5-triangle {
+	border-left: 2vw solid #01ffff;
+}
+
+.block7-triangle {
+	border-left: 2vw solid #ff00fe;
+}
+
+.block9-triangle {
+	border-left: 2vw solid #018f01;
+}
+
+.block1-name,
+.block2-name,
+.block3-name,
+.block4-name,
+.block5-name,
+.block6-name,
+.block7-name,
+.block8-name,
+.block9-name,
+.block10-name{
+	color: #C3C3C3;
+	font-size: 3vw;
+	position: relative;
+	top: -23.5vw;
+	left: 10%;
+	font-weight: bold;
+}
+
+.block1-desc,
+.block2-desc,
+.block3-desc,
+.block4-desc,
+.block5-desc,
+.block6-desc,
+.block7-desc,
+.block8-desc,
+.block9-desc,
+.block10-desc{
+	font-size: 1vw;
+	color: #C3C3C3;
+	position: relative;
+	top: -23vw;
+	left: 8%;
+	width: 50%;
+}
+
+.block1-icon img,
+.block2-icon img,
+.block3-icon img,
+.block4-icon img,
+.block5-icon img,
+.block6-icon img,
+.block7-icon img,
+.block8-icon img,
+.block9-icon img,
+.block10-icon img{
+	width: 4vw;
+	height: 4vw;
+	position: relative;
+	top: -29vw;
+	left: 85%;
+	opacity: 0.15;
+}
+
+.block1-hr hr,
+.block2-hr hr,
+.block3-hr hr,
+.block4-hr hr,
+.block5-hr hr,
+.block6-hr hr,
+.block7-hr hr,
+.block8-hr hr,
+.block9-hr hr,
+.block10-hr hr{
+	width: 40%;
+	margin-left: 18.5%;
+	position: relative;
+	top: -25.5vw;
+	left: 11%;
+	border: 0; 
+	height: 1px; 
+	background-color: #C3C3C3;
+	box-shadow: 0 0.1vw 0.3vw 0.15vw #C3C3C3;
+}
+
+/* Отличия четных блоков ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.block2-round1,
+.block4-round1,
+.block6-round1,
+.block8-round1,
+.block10-round1 {
+	width: 0vw;
+	height: 0vw;
+	border: 6vw solid #862bc2;
+	border-radius: 50%;
+	position: relative;
+	top: -1vw;
+	left: 54.05vw;
+	border-color: #862bc2 #862bc2 transparent transparent;
+	rotate: 45deg;
+	z-index: 1;
+}
+
+.block2-round1 {
+	border: 6vw solid #fe0000;
+	border-color: #fe0000 #fe0000 transparent transparent;
+}
+
+.block4-round1 {
+	border: 6vw solid #1ce71b;
+	border-color: #1ce71b #1ce71b transparent transparent;
+}
+
+.block6-round1 {
+	border: 6vw solid #0000fe;
+	border-color: #0000fe #0000fe transparent transparent;
+}
+
+.block8-round1 {
+	border: 6vw solid #fe7e00;
+	border-color: #fe7e00 #fe7e00 transparent transparent;
+}
+
+.block10-round1 {
+	border: 6vw solid #c40017;
+	border-color: #c40017 #c40017 transparent transparent;
+}
+
+
+.round2-number,
+.round4-number,
+.round6-number,
+.round8-number,
+.round10-number {
+	font-size: 3vw;
+	color: white;
+	position: relative;
+	top: -2.5vw;
+	left: 0.5vw;
+	rotate: -45deg;
+	font-weight: 900;
+}
+
+.block2-round2,
+.block4-round2,
+.block6-round2,
+.block8-round2,
+.block10-round2 {
+	width: 0vw;
+	height: 0vw;
+	border: 4vw solid #561c9b;
+	border-radius: 50%;
+	position: relative;
+	top: -11vw;
+	left: 56.08vw;
+	border-color: transparent transparent #561c9b #561c9b;
+	rotate: 45deg;
+	z-index: 2;
+}
+
+.block2-round2 {
+	border: 4vw solid #bf0202;
+	border-color: transparent transparent #bf0202 #bf0202;
+}
+
+.block4-round2 {
+	border: 4vw solid #17b017;
+	border-color: transparent transparent #17b017 #17b017;
+}
+
+.block6-round2 {
+	border: 4vw solid #0404ba;
+	border-color: transparent transparent #0404ba #0404ba;
+}
+
+.block8-round2 {
+	border: 4vw solid #c60;
+	border-color: transparent transparent #c60 #c60;
+}
+
+.block10-round2 {
+	border: 4vw solid #8a0010;
+	border-color: transparent transparent #8a0010 #8a0010;
+}
+
+.block2-triangle,
+.block4-triangle,
+.block6-triangle,
+.block8-triangle,
+.block10-triangle {
+	border: 2vw solid transparent; 
+	border-right: 2vw solid #862bc2;
+	z-index: 3;
+	position: relative;
+	top: -17vw;
+	left: 0.05vw;
+}
+
+.block2-triangle {
+	border-right: 2vw solid #fe0000;
+}
+
+.block4-triangle {
+	border-right: 2vw solid #1ce71b;
+}
+
+.block6-triangle {
+	border-right: 2vw solid #0000fe;
+}
+
+.block8-triangle {
+	border-right: 2vw solid #fe7e00;
+}
+
+.block10-triangle {
+	border-right: 2vw solid #c40017;
+}
+
+/* Стили для footer ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+footer {
+	display: flex;
+	background-color: #ccc;
+	color: grey;
+	padding: 1vw;
+	align-items: center;
+	padding-left: 5vw;
+	position: absolute;
+	bottom: auto;
+	width: 93.9%;
+}
+
+footer .footer-logo{
+	width: 15vw;
+	margin-right: 13vw;
+	
+}
+
+footer .icon-footer {
+	padding-left: 5vw;
+	width: 3vw;
+	height: 3vw;
+}
+
+footer p {
+	margin-left: 21vw;
+	font-size: 2vw;
+}

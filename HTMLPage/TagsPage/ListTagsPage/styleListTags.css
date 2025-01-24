@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Стили для header -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+header {
+	padding: 2vw;
+	display: flex;
+	background-color: #ccc;
+}
+
+.logo-div {
+	display: flex;
+	flex-direction: column;
+	width: 30vw;
+	cursor: pointer;
+
+}
+
+.logo-div h1 {
+	align-self: center;
+	font-size: 2vw;
+	font-family: "Great Vibes", serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.logo-div p {
+	align-self: center;
+	font-size: 1vw;
+}
+
+header .history {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+header .history * {
+	font-size: 2vw;
+	cursor: pointer;
+}
+
+header .history .lang {
+	width: 6vw;
+	color: black;
+	text-decoration: none;
+}
+
+header .history .lang:hover {
+	position: relative;
+	text-decoration: underline;
+}
+
+header .history .my_history {
+	cursor: default;
+}
+
+/* Основное ------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+main {
+	padding-top: 8vw;
+}
+
+.line {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 5vh;
+}
+
+.block {
+	display: flex;
+	flex-direction: column;
+	width: 20vw;
+}
+
+ul {
+	position: relative;
+	left: 15%;
+}
+
+li {
+	font-size: 2vw;
+	cursor: pointer;
+	margin-bottom: 1vh;
+}
+
+.li-none {
+	color: transparent;
+}
+
+
+/* Стили для footer ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+footer {
+	display: flex;
+	background-color: #ccc;
+	color: grey;
+	padding: 1vw;
+	align-items: center;
+	padding-left: 5vw;
+	position: absolute;
+	bottom: -155%;
+	width: 93.9%;
+}
+
+footer .footer-logo{
+	width: 15vw;
+	margin-right: 13vw;
+	
+}
+
+footer .icon-footer {
+	padding-left: 5vw;
+	width: 3vw;
+	height: 3vw;
+}
+
+footer p {
+	margin-left: 21vw;
+	font-size: 2vw;
+}

@@ -1,0 +1,341 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Стили для header -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+header {
+	padding: 2vw;
+	display: flex;
+	background-color: #ccc;
+}
+
+.logo-div {
+	display: flex;
+	flex-direction: column;
+	width: 30vw;
+	cursor: pointer;
+
+}
+
+.logo-div h1 {
+	align-self: center;
+	font-size: 2vw;
+	font-family: "Great Vibes", serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.logo-div p {
+	align-self: center;
+	font-size: 1vw;
+}
+
+header .history {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+header .history * {
+	font-size: 2vw;
+	cursor: pointer;
+}
+
+header .history .lang {
+	width: 6vw;
+	color: black;
+	text-decoration: none;
+}
+
+header .history .lang:hover {
+	position: relative;
+	text-decoration: underline;
+}
+
+header .history .my_history {
+	cursor: default;
+}
+
+
+/* Основные стили ----------------------------------------------------------------------------------------------------- */
+
+main {
+	width: 75vw;
+	margin-left: 12.5vw;
+	height: 90vh;
+}
+
+.main-round {
+	width: 20vw;
+	height: 20vw;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	top: 38%;
+	left: 40%;
+	z-index: 1;
+	box-shadow: 0.3vw 0.3vw 1.5vw #8f8f8f;
+}
+
+.main-round-green {
+	width: 20vw;
+	height: 20vw;
+	border-radius: 50%;
+	position: absolute;
+	top: -7.3%;
+	left: -7.3%;
+	border: 1.5vw solid #0dc295;
+	border-color: transparent transparent #0dc295 #0dc295;
+	z-index: 2;
+	rotate: -45deg;
+}
+
+.main-round-yellow { 
+	width: 20vw;
+	height: 20vw;
+	border-radius: 50%;
+	position: absolute;
+	top: -7.3%;
+	left: -7.3%;
+	border: 1.5vw solid #fdc74b;
+	border-color: #fdc74b #fdc74b transparent transparent;
+	z-index: 2;
+}
+
+.main-round-text {
+	rotate: 45deg;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 4vw;
+	position: absolute;
+	top: 35%;
+	left: 12%;
+}
+
+.green-point {
+	width: 1vw;
+	height: 1vw;
+	border-radius: 50%;
+	background-color: #0dc295;
+	position: absolute;
+	top: 55%;
+	left: 30%;
+}
+
+.yellow-point {
+	width: 1vw;
+	height: 1vw;
+	border-radius: 50%;
+	background-color: #fdc74b;
+	position: absolute;
+	top: 65%;
+	left: 40%;
+}
+
+.green-point1 {
+	width: 1.47vw;
+	height: 1.47vw;
+	border-radius: 50%;
+	background-color: #0dc295;
+	position: absolute;
+	top: 57%;
+	left: 60.25%;
+	z-index: 5;
+}
+
+.yellow-point1 {
+	width: 1.48vw;
+	height: 1.48vw;
+	border-radius: 50%;
+	background-color: #fdc74b;
+	position: absolute;
+	top: 57%;
+	left: 38.53%;
+	z-index: 5;
+}
+
+
+
+
+.green-line {
+	width: 10vw;
+	height: 1.5vw;
+	background-color: #0dc295;
+	position: absolute;
+	top: 57.05%;
+	left: 60.9%;
+	z-index: 6;
+}
+
+.yellow-line {
+	width: 10vw;
+	height: 1.5vw;
+	background-color: #fdc74b;
+	position: absolute;
+	top: 56.9%;
+	left: 29.3%;
+	z-index: 6;
+}
+
+
+
+
+
+
+.global-round-green {
+	width: 6vw;
+	height: 6vw;
+	border-radius: 50%;
+	position: absolute;
+	top: 48.90%;
+	left: 69.33%;
+	z-index: 20;
+	border: 1.5vw solid black;
+	border-color: #0dc295 transparent transparent transparent;
+	rotate: -137deg;
+	z-index: 1;
+}
+
+.global-round {
+	width: 1.51vw;
+	height: 1.51vw;
+	background-color: #0dc295;
+	border-radius: 50%;
+	position: absolute;
+	top: 64.11%;
+	left: 73.2%;
+	z-index: 5;
+}
+
+.global-pic {
+	width: 6vw;
+	height: 6vw;
+	border-radius: 50%;
+	position: absolute;
+	top: 52%;
+	left: 70.8%;
+	z-index: 10;
+}
+
+
+
+.local-pic {
+	width: 6vw;
+	height: 6vw;
+	padding: 2vw;
+	border-radius: 50%;
+	position: absolute;
+	top: 48%;
+	left: 21.4%;
+	z-index: 10;
+}
+
+.local-round {
+	width: 1.51vw;
+	height: 1.51vw;
+	background-color: #fdc74b;
+	border-radius: 50%;
+	position: absolute;
+	top: 49.5%;
+	left: 25.8%;
+	z-index: 5;
+}
+
+.local-round-yellow {
+	width: 6vw;
+	height: 6vw;
+	border-radius: 50%;
+	position: absolute;
+	top: 49.5%;
+	left: 21.9%;
+	z-index: 20;
+	border: 1.5vw solid black;
+	border-color: #fdc74b transparent transparent transparent;
+	rotate: 45deg;
+	z-index: 1;
+}
+
+
+
+
+
+.desc-container-local {
+	width: 12vw;
+	height: 10vw;
+	position: absolute;
+	top: 72%;
+	left: 21%;
+}
+
+.local-name {
+	color: #fdc74b;
+	font-size: 2.5vw;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.local-desc {
+	font-size: 1.3vw;
+	color: grey;
+}
+
+
+
+.desc-container-global {
+	width: 12vw;
+	height: 10vw;
+	position: absolute;
+	top: 24%;
+	left: 68%;
+}
+
+.global-name {
+	color: #0dc295;
+	font-size: 2.5vw;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.global-desc {
+	font-size: 1.3vw;
+	color: grey;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+/* Стили для footer ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+footer {
+	display: flex;
+	background-color: #ccc;
+	color: grey;
+	width: 93.95%;
+	padding: 1vw;
+	align-items: center;
+	padding-left: 5vw;
+	position: absolute;
+	bottom: -20%;
+}
+
+footer .footer-logo{
+	width: 15vw;
+	margin-right: 13vw;
+	
+}
+
+footer .icon-footer {
+	padding-left: 5vw;
+	width: 3vw;
+	height: 3vw;
+}
+
+footer p {
+	margin-left: 21vw;
+	font-size: 2vw;
+}
